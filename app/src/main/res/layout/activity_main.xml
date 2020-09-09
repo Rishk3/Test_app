@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:background="#A11211"
+        android:scrollbars="none"
+        >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/circle"
+                    android:src="@drawable/fruits"
+                    android:padding="10dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/fruit_text"
+                    android:layout_width="wrap_content"
+                    android:maxWidth="70dp"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"
+                    android:text="Fruits and Vegetables"
+                    android:textColor="#fff"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:fadingEdge="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/grocery"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Groceries"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/bakery"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Bakery"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/snacks"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Snacks"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/beauty"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Beauty and Hygiene"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/kitchen"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Kitchen and Garden"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/baby"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Baby Care"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/patanjali"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Patanjali Products"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/stationary"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Stationary"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/household"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Household and Cleaning"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/dairy"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Dairy"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/sweets"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Sweets"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/pet"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Pet Care"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/populatry"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Poultry"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/fruits"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/bavrage"
+                android:layout_width="wrap_content"
+                android:maxWidth="70dp"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:text="Bavarages"
+                android:textColor="#fff"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
